@@ -1,4 +1,4 @@
-// same as any other language just without {}
+// same as any other language just without ().
 package main
 
 import "fmt"
@@ -8,7 +8,9 @@ func main() {
 
 	if age>=18 {
 		fmt.Println("You are eligible to vote");
-	} else {
+	} else if age>10000{
+		fmt.Println("How??");
+	}else{
 		fmt.Println("You are not eligible to vote");
 	}
 
