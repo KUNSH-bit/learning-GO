@@ -1,0 +1,9 @@
+"go run ." runs the go file in the folder.
+
+but if you are using 2 files of go in one folder the "func main" collides.
+
+therefore to avoid there are 2 ways:
+
+1) make each file in diff folders.
+
+2) use command go run ./(file_name).go to run seperate go files.
