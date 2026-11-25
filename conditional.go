@@ -14,4 +14,9 @@ func main() {
 		fmt.Println("You are not eligible to vote");
 	}
 
+
+	if length:=len("Hello!"); length>5{			// to declare a variable in if statement
+		fmt.Println("Length is greater than 5");
+	}
+
 }
